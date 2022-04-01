@@ -13,6 +13,6 @@ func main() {
 	flag.Parse()
 	fmt.Printf(strings.Join(flag.Args(), *sep))
 	if !*n {
-		fmt.Println()
+		fmt.Println("asdfasdf")
 	}
 }
